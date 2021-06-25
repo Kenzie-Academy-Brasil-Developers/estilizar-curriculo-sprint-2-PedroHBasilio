@@ -1,3 +1,30 @@
+body {
+	margin-right: 150px;
+	margin-left: 150px;
+}
+
+.mainDetails {
+	border-bottom: solid #cf8a05 2px;
+	padding: 20px;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+#contactDetails {
+	padding: 25px;
+}
+
+#contactDetails ul {
+	list-style-type: none;
+}
+
 .clear {
 	clear: both;
 }
@@ -5,11 +32,27 @@
 #headshot {
 	width: 12.5%;
 	float: left;
-	margin-right: 30px;
+	margin-right: 60px;
+}
+
+#headshot img{
+	border-radius: 100px;
 }
 
 #name {
 	float: left;
+}
+
+#name h1 {
+	font-family: Rokkitt ;
+	font-size: 50px;
+	margin-bottom: -35px;
+}
+
+#name h2 {
+	font-family: 'Helvetica', sans-serif ;
+	font-size: 35px;
+	font-weight: lighter;
 }
 
 #contactDetails {
@@ -21,7 +64,32 @@
 	width: 25%;
 }
 
+.sectionTitle h1 {
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	color: #cf8a05;
+	font-size: 20px;
+	padding-left: 30px;
+}
+
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+
+.sectionContent h2 {
+	font-family: 'Helvetica';
+	font-weight: initial;
+	font-size: 25px;
+}
+
+.sectionContent ul {
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	column-count: 4;
+	line-height: 30px;
+}
+
+.sectionBorder {
+	border-bottom: solid #dedede 1px;
 }
