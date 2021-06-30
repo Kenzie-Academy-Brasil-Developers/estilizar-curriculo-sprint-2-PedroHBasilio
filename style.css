@@ -1,6 +1,8 @@
 body {
+	background-color: #f3f3f3;
 	margin-right: 150px;
 	margin-left: 150px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .mainDetails {
@@ -8,17 +10,16 @@ body {
 	padding: 20px;
 }
 
-p {
-	font-family: Arial, Helvetica, sans-serif;
-}
+
 
 a {
-	color: black;
+	color: #444444;
 	text-decoration: none;
 }
 
 #contactDetails {
 	padding: 25px;
+	color: #444444;
 }
 
 #contactDetails ul {
@@ -47,12 +48,14 @@ a {
 	font-family: Rokkitt ;
 	font-size: 50px;
 	margin-bottom: -35px;
+	color: #181818;
 }
 
 #name h2 {
 	font-family: 'Helvetica', sans-serif ;
 	font-size: 35px;
 	font-weight: lighter;
+	color: #181818;
 }
 
 #contactDetails {
@@ -65,28 +68,38 @@ a {
 }
 
 .sectionTitle h1 {
-	font-family: 'Lato', sans-serif;
-	font-style: italic;
+	font-family: 'Rokkit';
+	font-weight: lighter;
+	font-style: oblique;
 	color: #cf8a05;
-	font-size: 20px;
+	font-size: 28px;
 	padding-left: 30px;
+}
+
+.subDetails {
+	font-style: italic;
+	margin-top: -20px;
 }
 
 .sectionContent {
 	float: right;
-	width: 72.5%;
+	width: 70%;
+	font-size: 16px;
+	line-height: 25px;
+	color: #444444;
 }
 
 .sectionContent h2 {
-	font-family: 'Helvetica';
-	font-weight: initial;
+	font-family: 'Rokkit';
+	font-weight: lighter;
 	font-size: 25px;
+	color: #181818;
 }
 
 .sectionContent ul {
 	list-style-type: none;
 	font-family: Arial, Helvetica, sans-serif;
-	column-count: 4;
+	column-count: 3;
 	line-height: 30px;
 }
 
