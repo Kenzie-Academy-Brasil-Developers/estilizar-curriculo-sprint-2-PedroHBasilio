@@ -6,6 +6,15 @@
 	--color-topic-divisor: #dedede;
 }
 
+body{
+	font-family: Lato, sans-serif;
+	color: var(--color-contact);
+}
+
+	body h1{
+		font-family: Rokkitt, sans-serif;
+	}
+
 #top {
 	background-color: var(--color-background);
 }
@@ -36,14 +45,15 @@
     			bottom: 30px;
 			}
 				#name h1{
-					font-family: Rokkitt, sans-serif;
 					font-size: 40px;
     				margin-bottom: -30px;
+					color: var(--color-title);
 				}
 				#name h2{
 					font-weight: 100;
     				font-family: Helvetica, sans-serif;
 					font-size: 30px;
+					color: var(--color-title);
 				}
 
 			#contactDetails{
@@ -57,7 +67,7 @@
 
 					#contactDetails a{
 						text-decoration: none;
-						color: black;
+						color: var(--color-contact);
 					}
 		
 		.clear{}
@@ -72,7 +82,6 @@
 					width: 25%;	
 				}
 					.sectionTitle h1{
-						font-family: 'Rokkitt', sans-serif;
     					font-weight: 100;
 						font-style: italic;
 					}
@@ -80,13 +89,13 @@
 				.sectionContent{
 					display: inline-block;
 					width: 70%;	
-					font-family: Lato, sans-serif;	
 					font-weight: 200;
 				}
 					.sectionContent h2{
 						font-family: Arial, sans-serif;
 						font-weight: 100;
 						margin-bottom: -15px;
+						color: var(--color-title);
 					}
 					.subDetails{
 						font-style: italic;
